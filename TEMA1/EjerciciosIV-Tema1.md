@@ -33,7 +33,8 @@ Vamos a comenzar viendo que modelo de procesador tiene nuestro ordenador, para e
 cat /proc/cpuinfo
 ~~~
 Y obtenemos el siguiente resultado:
-![](Imágenes/modeloProcesador.png)
+<img src="Imágenes/modeloProcesador.png" width="540px" />
+
 A continuación ejecutamos la orden que nos indican:
 ~~~
 egrep '^flags.*(vmx|svm)' /proc/cpuinfo
@@ -50,6 +51,7 @@ En VirtualBox he creado una máquina con Ubuntu como Sistema Operativo y vemos q
 ![](Imágenes/pruebaVirtual.png)
 
 Aquí podemos ver que mi móvil es un Samsung S9+.
+
 <img src="Imágenes/modeloMovil.jpg" width="240px" />
 
 Y si ejecutamos la orden vemos que no lista nada por lo que el procesador de mi móvil no tiene dicha funcionalidad o está desactivada.
