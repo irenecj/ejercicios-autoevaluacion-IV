@@ -33,6 +33,7 @@ Vamos a comenzar viendo que modelo de procesador tiene nuestro ordenador, para e
 cat /proc/cpuinfo
 ~~~
 Y obtenemos el siguiente resultado:
+
 <img src="Imágenes/modeloProcesador.png" width="540px" />
 
 A continuación ejecutamos la orden que nos indican:
