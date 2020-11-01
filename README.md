@@ -5,6 +5,6 @@ Repositorio con los ejercicios de autoevaluación para la asignatura de Infraest
 Este es el [enlace](https://github.com/irenecj/ejercicios-autoevaluacion-IV/blob/main/TEMA1/EjerciciosIV-Tema1.md) para acceder a los ejercicios realizados.
 
 #### TEMA 4
-Este es el [enlace](https://github.com/irenecj/ejercicios-autoevaluacion-IV/blob/main/TEMA3/EjerciciosIV-Tema4.md) para acceder a los ejercicios realizados.
+Este es el [enlace](https://github.com/irenecj/ejercicios-autoevaluacion-IV/blob/main/TEMA4/EjerciciosIV-Tema4.md) para acceder a los ejercicios realizados.
 #### AUTORA
 Irene Cano Jerez.
