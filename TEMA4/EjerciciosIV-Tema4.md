@@ -33,7 +33,7 @@ Hecho esto, la página nos muestra una serie de pasos que debemos seguir.
 
 Así queda nuestro fichero de configuración:
 
-![](imagenes/fichero-travis.png)
+![](imagenes/ficheroTravis.png)
 
 Como vemos el fichero contiene diferentes secciones:
 - *Language:* indica qué lenguaje estamos usando, en nuestro caso *nodejs*.
