@@ -80,7 +80,9 @@ netlify deploy
 netlify deploy --prod
 ~~~
 
-A continuación nos vamos a nuestro proyecto, le damos a *Deploy Settings > Functions > Edit Settings* e indicamos que las funciones que vamos a probar se encuentran en el directorio **functions**, el cual se va a situar en la raíz del proyecto.
+A continuación nos vamos a nuestro proyecto, le damos a *Deploy Settings > Functions > Edit Settings* e indicamos que las funciones que vamos a probar se encuentran en el directorio **functions**, el cual se va a situar en la raíz del proyecto, donde también crearemos un fichero **netlify.toml** en el que indicaremos el directorio donde se encuentran nuestras funciones.
+
+![](imagenes/toml.png)
 
 ![](imagenes/fichero-deploy.png)
 
@@ -96,6 +98,8 @@ Si accedemos a *functions* veremos que nos aparecen las funciones que hemos aña
 
 ![](imagenes/functions.png)
 
-Si clickamos en dicha función, nos aparecerá el log de nuestra función y además se nos proporciona un enlace al cual podemos acceder para ver si nuestra función funciona correctamente.
+Si clickamos en dicha función, nos aparecerá el log de nuestra función y además se nos proporciona un [enlace](https://ejerciciosiv.netlify.app/.netlify/functions/hello) al cual podemos acceder para ver si nuestra función funciona correctamente.
 
 ![](imagenes/despliegue-correcto1.png)
+
+![](imagenes/despliegue-correcto2.png)
