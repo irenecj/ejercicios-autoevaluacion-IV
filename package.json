@@ -1,0 +1,34 @@
+{
+  "name": "ejercicios-autoevaluacion-iv",
+  "version": "1.0.0",
+  "description": "Repositorio para los ejercicios de autoevaluación de IV",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenecj/ejercicios-autoevaluacion-IV.git"
+  },
+  "keywords:" [
+    "ejercicios",
+    "iv"
+  ],
+  "author": "Irene Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenecj/ejercicios-autoevaluacion-IV/issues"
+  },
+  "homepage": "https://github.com/irenecj/ejercicios-autoevaluacion-IV#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "grunt-cli": "1.3.2",
+    "grunt-run": "^0.8.1"
+  }
+}
