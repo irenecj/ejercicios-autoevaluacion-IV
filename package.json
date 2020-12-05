@@ -4,7 +4,11 @@
   "description": "Repositorio para los ejercicios de autoevaluación de IV",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "pm2 start TEMA6/express/api-basica.js -i 5",
+    "stop": "pm2 stop all",
+    "delete": "pm2 delete api-basica",
+    "dashboard" : "pm2 monit"
   },
   "repository": {
     "type": "git",
@@ -21,7 +25,6 @@
   },
   "homepage": "https://github.com/irenecj/ejercicios-autoevaluacion-IV#readme",
   "devDependencies": {
-    "grunt": "^1.3.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "node-telegram-bot-api": "^0.50.0",
@@ -29,8 +32,6 @@
     "supertest": "^6.0.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "grunt-cli": "1.3.2",
-    "grunt-run": "^0.8.1"
+    "express": "^4.17.1"
   }
 }
