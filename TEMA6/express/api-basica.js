@@ -12,7 +12,7 @@ app.get('/bienvenida', (req, res) => {
   res.send({ message: 'Bienvenid@ ' + usuario})
 })
 
-app.get('/asignatura/:asig', (req, res) => {
+app.put('/asignatura/:asig', (req, res) => {
   var asignatura = req.params.asig
   res.send({ message: 'Esta es la sección de información sobre la asignatura ' + asignatura})
 })
